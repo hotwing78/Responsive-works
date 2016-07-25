@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tabs</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<script type="text/javascript" src = "jQuery/jQuery-2.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<style type="text/css">
+			body{
+				background-color: grey;
+				margin-top: 32px;
+				}
+			.carousel-inner > .item > img{
+				margin: 0 auto;
+			}
+			ol{
+				list-style-type: none;
+			}
+		</style>
+	</head>
+<body>
+		<div class = "container">
+			<h1>My Favorite  Cartoons</h1>
+			<div id="navCarousel" class="carousel slide"
+				 data-ride="carousel"
+				 data-interval="3000">
+				 <ol class="Carousel-indicators">
+				 	<li data-target= "#navCarousel" data-slide-to="0" class="active">
+				 	</li>		
+				 	<li data-target= "#navCarousel" data-slide-to="1"></li>
+				 	<li data-target= "#navCarousel" data-slide-to="2"></li>	
+				 </ol>
+			   <div class="carousel-inner">
+					<div class="item active">
+						<img src="images/catfudd.jpg" alt="Cat Fudd"/>
+					</div>
+					<div class="item">
+						<img src="images/bad_dog.jpg" alt="Bad Dog"/>
+					</div>
+					<div class="item">
+						<img src="images/cows.jpg" alt="Cows"/>
+					</div>
+				</div>
+				<a class="left carousel-control" href="#navCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#navCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+</body>
+</html>

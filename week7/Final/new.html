@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wingowiki App</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+      <link rel="stylesheet" type="text/css" href="css/newstyle.css">
+</head>
+
+<body data-spy="scroll" data-target="#my-navbar">
+
+<!-- navbar -->
+    <nav class = "navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>            
+                    <span class = "icon-bar"></span>
+                </button>
+                <a href=""class="navbar-brand">Wingowiki</a>
+            </div> <!-- end navbar-header -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <a href="" class="btn btn-warning navbar-btn navbar-right">Download Now</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="#feedback">Feedback</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div><!--End Container-->
+    </nav>
+
+    <!-- jumbotron -->
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>Wingowiki App</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <div class="btn-group">
+                <a href="" class="btn btn-lg btn-warning">Download App</a>
+                <a href="" class="btn btn-lg btn-default">Visit Store</a>
+                <a href="" class="btn btn-lg btn-warning">Spread the word</a>
+            </div>
+        </div> <!-- End container text-center -->
+    </div> <!-- End jumbotron -->
+    
+    <div class="container-feedback">
+        <section>
+            <div class="pageheader" id = "feedback">
+                <h2>Feedback. <small>Check out the AWESOME Feedback</small></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <blockquote>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <footer>Damon Wingo</footer>
+                    </blockquote>
+                </div>
+                    <div class="col-md-4">
+                    <blockquote>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <footer>Thomas Brady</footer>
+                    </blockquote>
+                </div>
+                    <div class="col-md-4">
+                    <blockquote>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <footer>Alex Costelli</footer>
+                    </blockquote>
+                </div>
+            </div> <!-- end row -->
+        </section>
+    </div> <!-- end container-feedback -->
+   
+    <!-- call to action -->
+    <section>
+        <div class="well">
+                <div class="container text-center">
+                    <h3>Subscribe for more free stuff</h3>
+                    <p>Enter your Name and Email</p>
+                    <form action="" class="form-inline">
+                        <div class="form-group">
+                            <label for="subsctiprion">Subscribe</label>
+                            <input type="text" class="form-control" id="subsctiption" placeholder= "Your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subsctiprion">E-mail Address</label>
+                            <input type="text" class="form-control" id="email" placeholder= "Enter your Email">
+
+                        </div>
+                        <button type="submit" class="btn btn-info">Submit</button>
+                        <hr>                        
+                    </form>
+                </div> <!--end container-->
+        </div> <!--end well-->
+    </section> <!-- Call to action *A call to action is the portion that requires user input.*-->
+    
+    <!-- Gallery -->
+    <div class="carousel-container">
+        <section>
+            <div class="page-header" id="gallery">
+                <h2>Gallery<small> Check out the AWESOME Gallery</small></h2>
+            </div>
+
+            <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+                <ol class="carousel-inidicators">
+                    <li class="active" data-tafget="#screenshot-carousel" data-slide-to="0"></li>
+                    <li data-tafget="#screenshot-carousel" data-slide-to="1"></li>
+                    <li data-tafget="#screenshot-carousel" data-slide-to="2"></li>
+                    <li data-tafget="#screenshot-carousel" data-slide-to="3"></li>          
+                </ol>   
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/highway.jpeg" alt="highway">
+                        <div class="carousel-caption">
+                            <h3>Highway Heading</h3>
+                            <p>This is the caption</p>
+                        </div>
+                    </div><!--  end of item -->
+                    
+                    <div class="item">
+                        <img src="images/river.jpeg" alt="river">
+                        <div class="carousel-caption">
+                            <h3>River Heading</h3>
+                            <p>This is the caption</p>
+                        </div>
+                    </div><!--  end of item -->
+                    
+                    <div class="item">
+                        <img src="images/street.jpeg" alt="street">
+                        <div class="carousel-caption">
+                            <h3>Street Heading</h3>
+                            <p>This is the caption</p>
+                        </div>
+                    </div><!--  end of item -->
+                    
+                    <div class="item">
+                        <img src="images/painting.jpeg" alt="painting">
+                        <div class="carousel-caption">
+                            <h3>Painting Heading</h3>
+                            <p>This is the caption</p>
+                        </div>
+                    </div><!--  end of item -->
+                </div><!--  End carousel inner -->
+               
+                <a href="#screenshot-carousel" class= "left carousel-control" data-slide="prev">
+                 <span class="glyphicon glyphicon-chevron-left"></span>
+                 </a>
+                <a href="#screenshot-carousel" class= "right carousel-control" data-slide="next">
+                 <span class="glyphicon glyphicon-chevron-right"></span>
+                 </a>
+            </div> <!-- end carousel slide -->
+        </section>
+    </div> <!-- end of carousel-container -->
+
+    <!-- Features -->
+    <div class="feature-container">
+        <section>
+            <div class="page-header" id="features">
+                <h2>Features<small> Some of the coolest Features of this app</small></h2>
+            </div> <!-- end #features -->
+            <div class="row">
+                <div class= "col-sm-8">
+                    <h3>This is the Heading for imac</h3>
+                    <p>Bacon ipsum dolor amet pig salami shank short loin pork belly pastrami ham pork strip steak filet 
+                    mignon frankfurter tri-tip brisket tongue. Capicola beef meatball biltong, short loin short ribs 
+                    leberkas shankle pork boudin fatback pig swine porchetta corned beef. Pancetta shoulder venison, 
+                    boudin tail pork loin frankfurter swine ham hock rump pork belly brisket pork kevin. 
+                    Turducken shankle flank tongue beef pork chop frankfurter ribeye pig corned beef.
+                    </p>
+                </div> <!-- end col-lg-8 -->
+                
+                <div class="col-sm-4">
+                    <img src="images/imac.jpeg" class"img-responsive" alt="imac">
+                </div><!-- end col-md-4 -->
+            </div> <!-- end row -->
+             
+             <div class="row">
+                <div class= "col-sm-8">
+                    <h3>This is the Heading for user</h3>
+                    <p>Bacon ipsum dolor amet pig salami shank short loin pork belly pastrami ham pork strip steak filet 
+                    mignon frankfurter tri-tip brisket tongue. Capicola beef meatball biltong, short loin short ribs 
+                    leberkas shankle pork boudin fatback pig swine porchetta corned beef. Pancetta shoulder venison, 
+                    boudin tail pork loin frankfurter swine ham hock rump pork belly brisket pork kevin. 
+                    Turducken shankle flank tongue beef pork chop frankfurter ribeye pig corned beef.
+                    </p>
+                </div> <!-- end col-lg-8 -->
+                <div class="col-sm-4">
+                    <img src="images/user.jpeg" class"img-responsive" alt="user">
+                </div><!-- end col-md-4 -->
+            </div> <!-- end row -->
+            
+             <div class="row">
+                <div class= "col-sm-8">
+                    <h3>This is the Heading for smartphone</h3>
+                    <p>Bacon ipsum dolor amet pig salami shank short loin pork belly pastrami ham pork strip steak filet 
+                    mignon frankfurter tri-tip brisket tongue. Capicola beef meatball biltong, short loin short ribs 
+                    leberkas shankle pork boudin fatback pig swine porchetta corned beef. Pancetta shoulder venison, 
+                    boudin tail pork loin frankfurter swine ham hock rump pork belly brisket pork kevin. 
+                    Turducken shankle flank tongue beef pork chop frankfurter ribeye pig corned beef.
+                    </p>
+                </div> 
+                <div class="col-sm-4">
+                    <img src="images/smartphone.jpeg" class"img-responsive" alt="smartphone">
+                </div> <!-- end col-md-4 -->
+            </div> <!-- end row -->
+           
+            <hr>
+            
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panerl-body">
+                           <span class="glyphicon glyphicon-ok text-center"></span>
+                            <h4>This is the Panel Heading</h4>
+                            <p>Bacon ipsum dolor amet pig salami shank short loin pork belly pastrami ham pork strip steak filet 
+                                mignon frankfurter tri-tip brisket tongue. 
+                            </p>
+                        </div> <!-- end panel body -->
+                    </div><!-- end panel -->
+                </div> <!-- end col -->
+                
+                 <div class="col-sm-4">
+                 <div class="panel panel-default text-center">
+                        <div class="panel-body">
+                            <span class="glyphicon glyphicon-star text-center"></span>
+                            <h4>This is the Panel Heading</h4>
+                             <p>Bacon ipsum dolor amet pig salami shank short loin pork belly pastrami ham pork strip steak filet 
+                                mignon frankfurter tri-tip brisket tongue. 
+                            </p>
+                        </div> <!-- end panel body -->
+                    </div> <!-- end panel -->
+                </div> <!-- end col -->
+
+                 <div class="col-sm-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-body">
+                        <span class="glyphicon glyphicon-play-circle"></span>
+                        <h4>This is the Panel Heading</h4>
+                        <p>>Bacon ipsum dolor amet pig salami shank short loin pork belly pastrami ham pork strip steak filet 
+                            mignon frankfurter tri-tip brisket tongue. 
+                        </p>
+                        </div> <!-- end panel body -->
+                    </div><!-- end panel --><!-- end panel -->
+                </div> <!-- end col -->
+            </div><!--  end row -->
+        </section>
+    </div> <!-- end of feature container -->
+
+    <!-- FAQ -->
+    <div class="faq-container">
+        <section>
+            <div class="faq-header" id="faq">
+                <h2>FAQ<small> Engaging with the customer</small></h2>
+            </div> <!-- end faq-header -->
+
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-1" data-toggle="collapse" data-parent="accordion">
+                                Question one?
+                            </a>
+                        </div> <!--end panel-title-->
+                        <div id="collapse-1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Why Bacon? Why NOT!?
+                            </div><!--end panel-body-->
+                        </div> <!--end panel-collapse-->
+                    </div> <!--end panel-heading-->
+                </div> <!--end panel-default-->
+                 
+                 <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-2" data-toggle="collapse" data-parent="accordion">
+                                Question two?
+                            </a>
+                        </div> <!--end panel-title-->
+                        <div id="collapse-2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Why Bacon? Why NOT!?
+                            </div><!--end panel-body-->
+                        </div> <!--end panel-collapse-->
+                    </div> <!--end panel-heading-->
+                </div> <!--end panel-default-->
+                 
+                 <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-3" data-toggle="collapse" data-parent="accordion">
+                                Question three?
+                            </a>
+                        </div> <!--end panel-title-->
+                        <div id="collapse-3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Why Bacon? Why NOT!?
+                            </div><!--end panel-body-->
+                        </div> <!--end panel-collapse-->
+                    </div> <!--end panel-heading-->
+                </div> <!--end panel-default-->
+            </div> <!-- end panel group -->
+        </section>
+    </div><!--  end FAQ-container -->
+
+    <!-- Contact -->
+    <div class="contact-container">
+        <section>
+            <div class="page-header" id="contact">
+                <h2>Contact Us<small>Contact us for more information</small></h2>
+            </div> <!-- end of #contact -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>Send us a message or contact us at the address below</p>
+
+                    <address>
+                        <strong>Wiredwiki Pvt Ltd</strong></br>
+                        1234 some where ave.</br>
+                        Charleston S.C. 29485</br>
+                        phone: 843-555-5555
+                    </address>
+                </div>
+                <div class="col-lg-8">
+                    <form action ="" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="user-name" class="col-lg-2 control-label">Name </label>
+                            <div class="col-lg-10">
+                                <input type="text" class"form-control" id="user-name" placeholder="Enter your name">
+                            </div>   <!-- end col-lg-10 -->
+                        </div><!--  end form-group-->
+
+                          <div class="form-group">
+                            <label for="user-email" class="col-lg-2 control-label">Email </label>
+                            <div class="col-lg-10">
+                                <input type="text" class"form-control" id="user-email" placeholder="Enter your Email">
+                            </div>   <!-- end col-lg-10 -->
+                        </div><!--  end form-group-->
+
+                          <div class="form-group">
+                            <label for="user-url" class="col-lg-2 control-label">Your Website</label>
+                            <div class="col-lg-10">
+                                <input type="text" class"form-control" id="user-name" placeholder="If you have any">
+                            </div>   <!-- end col-lg-10 -->
+                        </div><!--  end form-group-->
+                        <div class="form-group">
+                            <label for="user-message" class="col-lg-2 control-label">Any Messages</label>
+                            <div class="col-lg-10">
+                               <textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10"placeholder="Enter your message"></textarea>
+                            </div>   <!-- end col-lg-10 -->
+                        </div><!--  end form-group-->
+                        <div class="form-group">
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <button type="submit"class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>                
+                </div> <!-- end col-lg-8 -->
+            </div>
+        </section>
+    </div> <!-- end of contact-container -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+             <div class="container text-center">
+                    <h3>Subscribe for more free stuff</h3>
+                    <p>Enter your Name and Email</p>
+                    <form action="" class="form-inline">
+                        <div class="form-group">
+                            <label for="subsctiprion">Subscribe</label>
+                            <input type="text" class="form-control" id="subsctiption" placeholder= "Your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subsctiprion">E-mail Address</label>
+                            <input type="text" class="form-control" id="email" placeholder= "Enter your Email">
+                        </div>
+                       <button type="submit" class="btn btn-info">Submit</button>                      
+                    </form>
+                        <hr>
+                        <P>Check us out @</P>
+                    <ul class = "list-inline">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                <p>&copy: Copyright 2016</p>
+                </div> <!--end container-->
+        </div> <!-- end footer-container -->
+    </footer>
+
+    <script src="http:code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

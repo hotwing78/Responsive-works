@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>dropdown menu</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<script type="text/javascript" src = "jQuery/jQuery-2.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<style type="text/css">
+			body{
+				background-color: yellow;
+				margin: 16px;
+				}
+
+		</style>
+	</head>
+	<body>
+		<div class = "container-fluid">
+			<div class="dropdown">
+					<button class"btn btn-default dropdown-toggle"
+					type="button" id="dropwdown1" data-toggle = "dropdown">
+						Create a new dive log entry
+					<span class = "caret"></span>
+					</button>
+				<ul class = "dropdown-menu" role="menu" 
+					aria-labelledby="dropdown1">
+					<li role = "presentation">
+						<a role = "menuitem" href = "#">
+						<span class = "glyphicon glyphicon-heart"></span>
+							&nbsp; &nbsp; menu item 1
+						</a>
+					</li>
+					<li role = "presentation">
+						<a role = "menuitem" href = "#">
+							menu item 2
+						</a>
+					</li>
+					<li role = "presentation">
+						<a role = "menuitem" href = "#">
+							menu item 3
+						</a>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</body>
+</html>
